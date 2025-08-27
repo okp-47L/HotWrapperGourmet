@@ -25,7 +25,7 @@
 <div class="S">
   <div class="Simage">
     <a href="store/StoreInfo.action?storeCode=${view.storeCode}" class="store-link">
-      <img src="view." style="width: auto; height: 180px;" alt="No Image">
+      <img src="view.storeImage" style="width: auto; height: 180px;" alt="No Image">
   </div>
   <div class="Sinfo">
     <div class="Sname"><p>${view.storeName}</p></div>
