@@ -27,7 +27,7 @@
 	<table>
 	<tr>
 	<td>
-	<img src="../upload/FastFood.png" alt="Not Image" style="width: auto; height: 180px;">
+	<img src="store.storeImage" alt="Not Image" style="width: auto; height: 180px;">
 	</td>
 	<td>
 	<p><a href="StoreInfo.action?storeCode=${store.storeCode }">${store.storeName}</a></p>

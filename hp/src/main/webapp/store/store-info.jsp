@@ -32,7 +32,7 @@
 	<p><span>店舗評価：</span>${Convert.convertStoreGrade(storeInfo.storeGrade) }</p>
 	<p><span>定休日：</span>${Convert.convertRegularHoliday(storeInfo.regularHoliday) }</p>
 	<p><span>ジャンル：</span>${Convert.convertGenre(storeInfo.genre) }</p>
-	<p><img src="../upload/FastFood.png" style="width: auto; height: 360px;" alt="Not Image">
+	<p><img src="storeInfo.storeImage" style="width: auto; height: 360px;" alt="Not Image">
 	<p><span>店舗説明：</span>${storeInfo.storeExplain }</p>
 	<table>
 	<tr>
