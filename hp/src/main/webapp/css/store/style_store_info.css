@@ -1,0 +1,30 @@
+@charset "UTF-8";
+body {
+	background-image: url(../../upload/setmeal-arranged.JPG);
+}
+
+.wrapper{
+	margin:0 auto;
+	max-width: 600px;
+}
+
+.title{
+	text-align:center;
+}
+
+.txt{
+	display:inline-block;
+	text-align:left;
+}
+
+.image{
+	text-align:center
+}
+
+table{
+	margin:0 auto;
+}
+
+span {
+	font-weight: bold;
+}

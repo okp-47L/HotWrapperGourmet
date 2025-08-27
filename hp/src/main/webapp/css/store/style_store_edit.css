@@ -1,0 +1,51 @@
+@charset "UTF-8";
+body {
+	background-image: url(../../upload/setmeal-arranged.JPG);
+}
+
+.wrapper{
+	margin:0 auto;
+	max-width: 600px;
+}
+
+.title{
+	display: inli-block;
+	border-left: solid 5px #5250e0;
+	padding-left: 10px;
+	vertical-align:top;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.txt{
+	display:inline-block;
+	text-align:left;
+}
+
+textarea {
+	resize: none;
+	width: 600px;
+	height: 100px;
+}
+
+label{
+	display: inline-block;
+	width: 300px;
+	text-align: left;
+ }
+ 
+ .textStoreName{
+	width:600px;
+ }
+
+ .textAddress{
+	width:600px;
+ }
+ 
+ table{
+ 	margin:0 auto;
+ }
+ 
+ .mainTitle{
+	text-align:center;
+ }

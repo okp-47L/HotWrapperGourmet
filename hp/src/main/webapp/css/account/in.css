@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+form{
+   width: 500px;
+   margin:0 auto;
+   padding: 10px;
+	}
+
+ h2{
+	text-align: center;
+ }
+
+body{
+	background-image: url(../../upload/setmeal-arranged.JPG);
+	}
+
+.title{
+   display: inli-block;
+   border-left: solid 5px #5250e0;
+   padding-left: 10px;
+   vertical-align:top;
+  
+ }
+ 
+ label{
+	display: inline-block;
+	width: 150px;
+	text-align: left;
+ }
+ 
+ input[type="text"],
+ input[type="password"],
+ input[type="number"]{
+	width: 200px;
+	
+ }
+ 
+ p{
+	font-size: 20px;
+	font-weight: bold;
+ }
+ 
+ .btn{
+	margin-top: 50px;
+	text-align: center;
+ }
+ 
+ input[type="submit"]{
+	margin-right: 10px;
+ }
+ 
+ .error{
+	color: rgb(255, 0, 0);
+	font-size: large;
+	font-weight: bold;
+	animation: vib.1s;
+ }
+ 
+ @keyframes vib{
+		0% {transform: translate(5px, 0px) rotateZ(0deg)}
+	    25% {transform: translate(0px, 0px) rotateZ(1deg)}
+	    50% {transform: translate(-5px, 0px) rotateZ(0deg)}
+	    75% {transform: translate(0px, 0px) rotateZ(-1deg)}
+	    100% {transform: translate(5px, 0px) rotateZ(0deg)}
+ }
+ 

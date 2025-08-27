@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.serch {
+  display: flex;
+  flex-wrap: nowrap;  /* nowrapにして横一列 */
+  justify-content: flex-start;
+  gap: 10px 15px;
+  max-width: 100%;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.serch select,
+.serch input[type="text"] {
+	flex: 1 1 auto;
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+  min-width: 180px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+}
+
+.serch select:focus,
+.serch input[type="text"]:focus {
+  outline: none;
+  border-color: #f9c74f;
+  box-shadow: 0 0 6px rgba(249, 199, 79, 0.6);
+}
+
+.serch input[type="submit"] {
+  background-color: #f9c74f;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  min-width: 80px;
+  height: 38px; /* select と高さを合わせる */
+  align-self: flex-start; /* 少し上に寄せたい場合 */
+}
+
+.serch input[type="submit"]:hover {
+  background-color: #e6b63c;
+}

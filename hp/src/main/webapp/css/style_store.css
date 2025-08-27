@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/*背景画像*/
+body {
+	background-image: url(../upload/setmeal-arranged.JPG);
+}
+
+textarea {
+	resize: none;
+	width: 200px;
+	height: 100px;
+}
+
+/*	エラー表示のデザイン*/
+.err {
+	text-align: center;
+	color: #ff0000;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/*完了時の表示デザイン*/
+.complete {
+	text-align: center;
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*要素の中央寄せデザイン*/
+.center {
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+/*一行の一部のみデザイン変更*/
+span {
+	font-weight: bold;
+
+}
+
+.turn{
+	text-align: center;
+	white-space: normal;
+	width:100px;
+	
+}
+
+.center2{
+	width: fit-content;
+	margin: auto;
+}
+label{
+	display: inline-block;
+	text-align: right;
+	width:100px;
+
+}
+.item{
+	display:inline-block;
+	padding-left: 10px;
+	vertical-align:top;
+		
+}
+.table-center{
+	display:table;
+	margin:0 auto;
+}
